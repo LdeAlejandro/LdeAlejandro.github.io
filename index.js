@@ -1,8 +1,3 @@
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SS6WQYXDSM');
 
 
 
@@ -585,7 +580,7 @@ document.addEventListener("DOMContentLoaded", function() {
         function showOption() {
 
             var selectedOption = generatorOptions[activatorTypeSelect.value];
-            gtag('event':selectedOption );
+            //gtag('event':selectedOption );
                 
                 var eventData = {
                  event: activatorTypeSelect.value.replaceAll(' ','_').trim()
