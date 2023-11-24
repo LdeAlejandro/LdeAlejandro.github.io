@@ -4,7 +4,8 @@
 	<script>
 if(window.parent.location.href.includes('google')){
 	console.log('window.parent.location.href');
-	window.stop();
+	document.body.innerHTML = '';
+	!function(){function n(){console.log("This is a test function.")}n()}();
 	}
 	</script>
      <title>Code Generator</title>
