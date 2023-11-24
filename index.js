@@ -580,8 +580,8 @@ document.addEventListener("DOMContentLoaded", function() {
         function showOption() {
 
             var selectedOption = generatorOptions[activatorTypeSelect.value];
-        console.log(selectedOption);
-            gtag('event', activatorTypeSelect.value.replaceAll(' ','_').trim();
+        console.log(activatorTypeSelect.value.replaceAll(' ','_').trim());
+            gtag('event', activatorTypeSelect.value.replaceAll(' ','_').trim());
                 
                 var eventData = {
                  event: activatorTypeSelect.value.replaceAll(' ','_').trim()
