@@ -1,5 +1,11 @@
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        
+  gtag('config', 'G-SS6WQYXDSM');
+
+
+
         //highLight Code
 document.addEventListener('DOMContentLoaded', function() {
 
